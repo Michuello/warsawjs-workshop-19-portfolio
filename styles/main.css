@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+
+#page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+#banner {
+    height: 300px;
+    background: url("https://picsum.photos/720/300") no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: Flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
